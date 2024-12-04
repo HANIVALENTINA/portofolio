@@ -1,0 +1,151 @@
+@media (max-width: 768px) {
+  .bordered-box {
+    padding-left: 12px;  /* Menyesuaikan padding agar tetap rapi pada layar kecil */
+  }
+
+  .col-md-6 {
+    flex: 1 1 100%;  /* Mengubah layout menjadi satu kolom pada layar kecil */
+  }
+}
+
+/* Animasi untuk efek mengetik */
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+/* Tambahkan efek mengetik pada elemen h1 dengan class typing-text */
+.typing-text {
+  display: inline-block;
+  width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid #6EC1E4; /* Garis kursor */
+  font-family: 'Courier New', Courier, monospace;
+  animation: typing 3s steps(30) 1s forwards, blink-caret 0.75s step-end infinite;
+  color: #6EC1E4; /* Warna soft blue */
+}
+
+/* Efek kedipan pada kursor */
+@keyframes blink-caret {
+  50% {
+    border-color: transparent;
+  }
+}
+
+
+
+.jumbotron {
+    background-color:#E5E0D8; /* Latar belakang terang */
+    
+}
+
+.custom-img {
+    width: 290px; /* Maintain the width */
+    height: 290px; /* Maintain aspect ratio for a circle */
+    object-fit: cover; /* Ensure the image covers the entire circle */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add shadow effect */
+    border: 1px solid #e0ece0; /* Optional border */
+    margin-top: 90px;
+    border-radius: 25px;
+}
+
+
+  
+
+.lead {
+    font-weight: bold; /* Mencetak teks lebih tebal */
+    color: #080808; /* Warna teks */
+}
+
+.rounded-button {
+    display: inline-block; /* Membuat tombol terlihat lebih seperti tombol */
+    padding: 10px 20px; /* Padding untuk tombol */
+    background-color: #AAc7D8; /* Warna latar belakang tombol */
+    border-radius: 25px; /* Sudut membulat */
+    color: #333; /* Warna teks tombol */
+    text-decoration: none; /* Menghilangkan garis bawah */
+    transition: background-color 0.3s; /* Efek transisi */
+}
+
+.rounded-button:hover {
+    background-color: #b0bec7; /* Warna saat hover */
+}
+
+
+
+.jumbotron{
+    padding-top: 3rem;
+    background-color: #AAc7D8;
+
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.rounded-button {
+    background-color: #AAc7D8;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: inline-block;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: baground-color 0.3s;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* h2 {
+    margin-bottom: 20px;
+} */
+
+.bordered-box {
+    background-color: #ffffff; /* Warna latar belakang */
+    border: 1px solid #ccc; /* Warna border */
+    border-radius: 15px; /* Mengubah sudut menjadi tumpul */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Menambahkan bayangan */
+    justify-content: center;
+  }
+
+  
+
+.rounded-button:bover{
+ background-color: #2abe8d;
+}
+
+
+.bg-mint-green{
+    background-color: #44576D ;
+}
+
+#RiwayatPendidikan{
+    background-color:#f3f4f5 ;
+}
+
+#projects {
+   background-color: #b7d1e0; 
+}
+#keahlian {
+   background-color: #b7d1e0; 
+}
+
+#kontak{
+    background-color:#f3f4f5 ;
+}
